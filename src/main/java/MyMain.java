@@ -36,9 +36,9 @@ public class MyMain {
     // You may assume that all Strings are lowercase 
     public static boolean inOrder(String[][] words) { 
         boolean var = true;
-        for (int i = 0; i < words.length; i++) 
+        for (int i=0; i < words.length; i++) 
         {
-            for (int j = 0; j < words.length - 1; j++) 
+            for (int j=0; j < words.length - 1; j++) 
             {
                 if (words[i][j].charAt(0) > words[i][j+1].charAt(0)) 
                 {
